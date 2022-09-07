@@ -304,7 +304,7 @@ class _MyAppState extends State<MyApp> {
                       );
                     }).toList(),
                   ),
-                  RaisedButton(
+                  TextButton(
                     onPressed: () {
                       runAFunction(dropdownValue);
                     },
